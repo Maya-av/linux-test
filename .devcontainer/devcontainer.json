@@ -1,7 +1,7 @@
 {
-  "name": "Ubuntu 18.04 Custom Codespace",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-18.04",
+  "name": "Ubuntu 20.04 Custom Codespace",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-20.04",
   "features": {},
-  "postCreateCommand": "apt-get update && apt-get install -y curl git build-essential",
+  "postCreateCommand": "export DEBIAN_FRONTEND=noninteractive && apt-get update && apt-get install -y curl git build-essential",
   "remoteUser": "vscode"
 }
