@@ -1,7 +1,6 @@
 {
-  "name": "Ubuntu 18.04 Custom Codespace",
+  "name": "Ubuntu 18.04 Test",
   "image": "mcr.microsoft.com/devcontainers/base:ubuntu-18.04",
   "features": {},
-  "postCreateCommand": "export DEBIAN_FRONTEND=noninteractive && apt-get update && apt-get install -y curl git build-essential",
   "remoteUser": "vscode"
 }
